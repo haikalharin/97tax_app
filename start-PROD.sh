@@ -1,0 +1,1 @@
+nohup java -jar -Dspring.profiles.active=prod /home/ubuntu/app/backend.jar >> ~/logs/springBoot.log 2>> ~/logs/springBoot-err.log &

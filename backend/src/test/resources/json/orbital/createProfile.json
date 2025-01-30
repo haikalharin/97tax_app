@@ -1,0 +1,29 @@
+{
+  "version": "4.5",
+  "merchant": {
+    "bin": "000002",
+    "terminalID": "001"
+  },
+  "order": {
+    "customerProfileOrderOverideInd": "NO",
+    "customerProfileFromOrderInd": "A",
+    "orderDefaultAmount": "1050"
+  },
+  "paymentInstrument": {
+    "customerAccountType": "CC",
+    "card": {
+      "ccAccountNum": "5454545454545454",
+      "ccExp": "202206"
+    }
+  },
+  "profile": {
+    "customerName": "Customer Name",
+    "customerAddress1": "123 Main St",
+    "customerCity": "Tampa",
+    "customerState": "FL",
+    "customerZIP": "123456",
+    "customerEmail": "email@email.com",
+    "customerPhone": "1234561234",
+    "customerCountryCode": "US"
+  }
+}

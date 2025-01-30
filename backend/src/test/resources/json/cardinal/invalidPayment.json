@@ -1,0 +1,19 @@
+{
+  "Validated": true,
+  "Payment": {
+    "Type": "CCA",
+    "ProcessorTransactionId": "4QszLifPrwCTyTiYFnw1",
+    "ExtendedData": {
+      "CAVV": "",
+      "ECIFlag": "00",
+      "ThreeDSServerTransactionId": "1426400a-59cc-439d-8095-3d1ed8c68c24",
+      "ThreeDSVersion": "2.2.0",
+      "Enrolled": "U",
+      "PAResStatus": "",
+      "SignatureVerification": ""
+    }
+  },
+  "ActionCode": "NOACTION",
+  "ErrorNumber": 0,
+  "ErrorDescription": "Success"
+}

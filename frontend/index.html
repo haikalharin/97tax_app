@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="/static/favicon.png" />
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900,900i" />
+  <title>97tax.com</title>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-M87V64S');</script>
+  <script defer>
+    if (!Object.entries) {
+      Object.entries = function (obj) {
+        var ownProps = Object.keys(obj),
+          i = ownProps.length,
+          resArray = new Array(i); // preallocate the Array
+        while (i--) resArray[i] = [ownProps[i], obj[ownProps[i]]];
+
+        return resArray;
+      };
+    }
+
+    if (!Array.prototype.includes) {
+      Object.defineProperty(Array.prototype, "includes", {
+        value: function (searchElement, fromIndex) {
+          if (this == null) {
+            throw new TypeError('"this" is null or not defined');
+          }
+
+          // 1. Let O be ? ToObject(this value).
+          var o = Object(this);
+
+          // 2. Let len be ? ToLength(? Get(O, "length")).
+          var len = o.length >>> 0;
+
+          // 3. If len is 0, return false.
+          if (len === 0) {
+            return false;
+          }
+
+          // 4. Let n be ? ToInteger(fromIndex).
+          //    (If fromIndex is undefined, this step produces the value 0.)
+          var n = fromIndex | 0;
+
+          // 5. If n ≥ 0, then
+          //  a. Let k be n.
+          // 6. Else n < 0,
+          //  a. Let k be len + n.
+          //  b. If k < 0, let k be 0.
+          var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+          function sameValueZero(x, y) {
+            return (
+              x === y ||
+              (typeof x === "number" &&
+                typeof y === "number" &&
+                isNaN(x) &&
+                isNaN(y))
+            );
+          }
+
+          // 7. Repeat, while k < len
+          while (k < len) {
+            // a. Let elementK be the result of ? Get(O, ! ToString(k)).
+            // b. If SameValueZero(searchElement, elementK) is true, return true.
+            if (sameValueZero(o[k], searchElement)) {
+              return true;
+            }
+            // c. Increase k by 1.
+            k++;
+          }
+
+          // 8. Return false
+          return false;
+        }
+      });
+    }
+
+    if (!String.prototype.includes) {
+      String.prototype.includes = function (search, start) {
+        if (typeof start !== "number") {
+          start = 0;
+        }
+
+        if (start + search.length > this.length) {
+          return false;
+        } else {
+          return this.indexOf(search, start) !== -1;
+        }
+      };
+    }
+    if (!String.prototype.replaceAtTill) {
+      String.prototype.replaceAtTill = function (startIndex, endIndex, replacement) {
+        return this.substr(0, startIndex) + replacement + this.substr(endIndex);
+      }
+    }
+    if (!String.prototype.splice) {
+      String.prototype.splice = function (start, delCount, newSubStr) {
+        return this.slice(0, start) + newSubStr + this.slice(start + Math.abs(delCount));
+      }
+    }
+
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script
+      async
+      src="//www.googletagmanager.com/gtag/js?id=UA-113350015-1"
+    ></script> -->
+
+  <script defer>
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () {
+      dataLayer.push(arguments);
+    };
+    gtag("js", new Date());
+
+    gtag("config", "UA-113350015-1");
+    gtag("config", "AW-820207740");
+  </script>
+
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=654810814969461&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Microsoft UET tag -->
+  <script>
+    (function(w,d,t,r,u)
+    {
+      var f,n,i;
+      w[u]=w[u]||[],f=function()
+      {
+        var o={ti:"26007796"};
+        o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+      },
+      n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function()
+      {
+        var s=this.readyState;
+        s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
+      }
+      ,i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
+    })
+    (window,document,"script","//bat.bing.com/bat.js","uetq");
+  </script>
+  <!-- End Microsoft UET tag -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M87V64S" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="google-language-selection__panel">
+    <div class="container d-flex justify-content-end">
+      <div id="google_translate_element"></div>
+    </div>
+  </div>
+
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+
+  <!-- Commented out due to slow page load
+    <script src="//cdn.ywxi.net/js/inline.js?w=120"></script>
+    -->
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+  <!-- Dependencies staging (start) -->
+  <script src="https://songbirdstag.cardinalcommerce.com/edge/v1/songbird.js"></script>
+  <!-- Dependencies staging (end) -->
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          includedLanguages: "en,es",
+          layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT,
+          gaTrack: true,
+          gaId: "UA-113350015-1"
+        },
+        "google_translate_element"
+      );
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    defer></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ_42V9szfY0MYS-PWYUPzJJo3WOS0A3M&libraries=places"></script>
+  <script>
+    if (window.location.href.includes("admin")) {
+      document.getElementById("google_translate_element").style = "display:none";
+    } else {
+      document.getElementById("google_translate_element").style = "display:contents";
+    }
+
+  </script>
+</body>
+
+</html>

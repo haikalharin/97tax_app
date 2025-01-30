@@ -1,0 +1,80 @@
+**************************************************************************
+* Cardinal Commerce
+* Java Thin Client Release History
+**************************************************************************
+
+3.3.0	6/1/2017
+
+	Updated Httpclient to version: 4.5+ and required Apache Commons dependencies
+	Added support for COT timeout, request, and version logging 
+
+3.2.1	10/1/2016
+
+	Added support JRE version 1.6
+
+3.2.0	7/1/2016
+
+	Added support for field level encryption
+
+3.1.0	5/1/2016
+
+	Added method to get exception object
+	
+3.0.0	8/1/2015
+
+	Requires JDK or JRE version 1.7
+	Added Apache Commons 4.4
+
+2.12.0	11/13/2014
+
+	Added TLS Protocol Support 
+
+2.11.0	5/2/2014
+
+	Updated HttpConnectionManager Caching
+    
+2.10.0	5/24/2012
+
+	Resolved Bug : Resolved BigDecimal issue with JDK 1.4
+
+2.8.0	1/5/2011
+
+	Resolved Bug : Updated logic to handle an empty string in the system property https.proxyHost
+	Removed dependency on commons-httpclient-3.0.jar
+
+2.7.0	4/2/2010
+
+	Added methods to get unparsed request, to generate payload, and to unpack payload.
+
+2.6.0	5/18/2006
+
+	Added https proxy support.
+
+2.5.0	10/26/2005
+
+	General improvements.
+
+2.4.0	9/30/2004
+
+	Added additional Error Codes around the Timeout handling.
+
+2.3.0	9/10/2004
+
+	Added Apache Commons HttpClient to handle messaging for improved timeout control.
+
+2.2.0	8/23/2004
+
+	Requires JDK or JRE version 1.4 or later for XML messaging.
+
+2.1.0	6/18/2004
+
+	Updated third-party libraries for XML messaging.
+
+2.0.0	2/25/2003
+
+    Resolved Bug : Updated URL Encoding of the XML Message
+
+1.0.0	11/11/2002
+
+	Initial Release
+		

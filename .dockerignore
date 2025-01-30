@@ -1,0 +1,51 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+# Eclipse #
+.settings
+.project
+.classpath
+.studio
+target
+
+# git
+.git/
+
+
+*.gz
+
+# Apple #
+.DS_Store
+
+# Intellij #
+.idea
+*.iml
+*.log
+
+# vscode
+.vscode
+
+# logback
+logback.out.xml
+
+backend/src/main/resources/public/
+backend/target
+frontend/dist/
+frontend/node/
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/target
+frontend/test-output
+frontend/test/e2e/reports
+frontend/test/unit/coverage
+frontend/yarn-error.log
+frontend/yarn.lock
+security/target/
+selenium-debug.log
+
+.git/
+.idea/
+.vscode/

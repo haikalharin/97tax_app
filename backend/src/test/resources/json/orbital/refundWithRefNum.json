@@ -1,0 +1,14 @@
+{
+  "version": "4.5",
+  "merchant": {
+    "bin": "000002",
+    "terminalID": "001"
+  },
+  "order": {
+    "orderID": "123456",
+    "amount": "100",
+    "industryType": "EC",
+    "comments": "comments",
+    "txRefNum": "5F67C6E74C4D53364FA4EB642EB2CE82108D53F7"
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /order-confirmation/*
+Disallow: /tax-lien-order-form
+Disallow: /admin/orders
+Disallow: /admin/order/*
+Disallow: /login
+Disallow: /payment-plan-order-form

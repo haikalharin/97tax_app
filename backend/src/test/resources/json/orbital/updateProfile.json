@@ -1,0 +1,19 @@
+{
+  "version": "4.5",
+  "merchant": {
+    "bin": "000002",
+    "terminalID": "001"
+  },
+  "paymentInstrument": {
+    "card": {
+      "ccAccountNum": "5454545454545454",
+      "ccExp": "202206"
+    }
+  },
+  "profile": {
+    "customerRefNum": "12345678",
+    "customerName": "Customer Name",
+    "customerAddress1": "123 Main St",
+    "status": "I"
+  }
+}

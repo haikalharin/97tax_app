@@ -1,0 +1,25 @@
+{
+  "Validated": true,
+  "Payment": {
+    "Type": "CCA",
+    "ProcessorTransactionId": "Boz4SHLhuFN0SfzgPwP1",
+    "ExtendedData": {
+      "Amount": "11900",
+      "AuthorizationPayload": "eyJjb250YWluZXJWZXJzaW9uIjoiMSIsImVjaSI6IjAyIiwiYXV0aGVudGljYXRpb25WYWx1ZSI6Ik1USXpORFUyTnpnNU1ERXlNelExTmpjNE9UQT0iLCJlZmZlY3RpdmVBdXRoVHlwZSI6IkNIIiwiYWNzT3BlcmF0b3JJRCI6Ik1lcmNoYW50QUNTIiwidGhyZWVEU1JlcXVlc3RvckNoYWxsZW5nZUluZCI6IjAxIiwidHJhbnNTdGF0dXMiOiJZIiwiZHNUcmFuc0lEIjoiZjI5NTk4ZWEtOWNkYi00Yjc0LWE3YzMtNWU2MzU4NGMxZjlhIiwiYWNzVHJhbnNJRCI6IjBiYzlhNDdhLTJhYjAtNGZlYi1iMDcyLTE5ZDRlOWE0OTUyNiIsIm1lc3NhZ2VWZXJzaW9uIjoiMi4yLjAiLCJtZXJjaGFudE5hbWUiOiJEZXYgQ2VudGVyIE1lcmNoYW50IiwicHVyY2hhc2VEYXRlIjoiMjAyMzA3MTcxMTEyMzMiLCJwdXJjaGFzZUFtb3VudCI6IjExOTAwIiwiYnJvd3NlcklQIjoiOTEuMjEzLjIzMy4xNjUiLCJtZXJjaGFudENvdW50cnlDb2RlIjoiODQwIiwiYWNxdWlyZXJCSU4iOiIxMjM0NTY3OCIsImFjcXVpcmVyTWVyY2hhbnRJRCI6ImFzZmVmMjQzcnQ0M3J2IiwidGhyZWVEU1JlcXVlc3Rvck5hbWUiOiJEZXYiLCJ0aHJlZURTUmVxdWVzdG9ySUQiOiIxMjM0NTYiLCJjYXJkQnJhbmQiOiJNQVNURVJDQVJEIn0=",
+      "CAVV": "MTIzNDU2Nzg5MDEyMzQ1Njc4OTA=",
+      "CurrencyCode": "840",
+      "ECIFlag": "02",
+      "PARes": "eyJtZXNzYWdlVHlwZSI6IkNSZXMiLCJtZXNzYWdlVmVyc2lvbiI6IjIuMi4wIiwidGhyZWVEU1NlcnZlclRyYW5zSUQiOiJhNDJjMDI1Yi1lNjlmLTRiNjktYjk5NC1mYTRlNmNmNTAyMzMiLCJhY3NUcmFuc0lEIjoiMGJjOWE0N2EtMmFiMC00ZmViLWIwNzItMTlkNGU5YTQ5NTI2IiwiY2hhbGxlbmdlQ29tcGxldGlvbkluZCI6IlkiLCJ0cmFuc1N0YXR1cyI6IlkifQ",
+      "ACSTransactionId": "0bc9a47a-2ab0-4feb-b072-19d4e9a49526",
+      "DSTransactionId": "f29598ea-9cdb-4b74-a7c3-5e63584c1f9a",
+      "ThreeDSServerTransactionId": "a42c025b-e69f-4b69-b994-fa4e6cf50233",
+      "ThreeDSVersion": "2.2.0",
+      "Enrolled": "Y",
+      "PAResStatus": "Y",
+      "SignatureVerification": "Y"
+    }
+  },
+  "ActionCode": "SUCCESS",
+  "ErrorNumber": 0,
+  "ErrorDescription": "Success"
+}

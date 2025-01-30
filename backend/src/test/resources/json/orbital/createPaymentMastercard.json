@@ -1,0 +1,22 @@
+{
+  "version": "4.5",
+  "transType": "AC",
+  "merchant": {
+    "bin": "000002",
+    "terminalID": "001"
+  },
+  "paymentInstrument": {
+    "card": {
+      "ccAccountNum": "5112345112345114",
+      "ccExp": "202506"
+    }
+  },
+  "order": {
+    "orderID": "123456-MC",
+    "amount": "1000",
+    "industryType": "EC"
+  },
+  "additionalAuthInfo": {
+    "authenticationECIInd": "5"
+  }
+}
